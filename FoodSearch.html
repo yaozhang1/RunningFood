@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>FoodSearch</title>
+</head>
+<body>
+    <div style="font-family: 'Times New Roman'">
+    <h2><font face = "verdana">Food Search</font> </h2>
+    </div>
+    <div class="FoodSearchPanel">
+        <form name = "FoodSearch"
+              method="post" action="FoodSearch_Response.php">
+        Food Name:<br>
+        <input type="text" name="FoodName"><br>
+        Restuarant Name:<br>
+        <input type="text" name="RestName"><br>
+        Food Tag:<br>
+        <input type="text" name="FoodTag">
+        </form>
+    </div>
+    <div class="FoodRoulettePanel">
+        <button type="button" onclick="alert('ImplementFoodRoulette')">
+        Food Roulette!
+        </button>
+        <div class="RouletteOptions">
+        Options Go Here!
+        </div>
+    </div>
+    <div class="ResultsArea">
+        <p>Display Results Here</p>
+    </div>
+</body>
+</html>
